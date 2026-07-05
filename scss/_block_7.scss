@@ -1,0 +1,14 @@
+.block_7 {
+    padding-left: 10%;
+    padding-right: 10%;
+
+    .cont {
+        .h {
+            color: black;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                color: rgb(0, 99, 156);
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.block_4 {
+    padding: 5% 10% 0 10%;
+
+    .block-1 {
+        h1 {
+            color: #34495e;
+    }
+    }
+
+    .block-2 {
+        .color {
+            height: 1rem;
+            background: linear-gradient(left, #ff4081 0%, #1398d9 100% );
+        }
+
+        .color-80 {
+            width: 80%;
+        }
+
+        .color-85 {
+            width: 85%;
+        }
+    }
+    
+}

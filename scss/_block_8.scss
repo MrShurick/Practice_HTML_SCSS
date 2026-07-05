@@ -1,0 +1,59 @@
+@use 'mixin';
+.block_8 {
+    @include mixin.flex-align-justify;
+    height: 50vh;
+    background-image: url(/img/image-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    div {
+        @include mixin.flex-align-justify-col;
+        width: 50%;
+        gap: 2rem;
+        text-align: center;
+
+        h1 {
+        font-size: 3rem;
+        color: white;
+    } 
+
+    p {
+        color: gray;
+    }
+
+    form input {
+        padding: 0.5rem 1rem 0.5rem 1rem;
+        min-width: 30rem;
+        margin-right: 2rem;
+        background: none;
+        border-radius: 2rem;
+        border: 0.1rem solid rgba(128, 128, 128, 0.305);
+        color: white;
+        transition: all 0.2s ease-in-out;
+
+        &:focus {
+            outline: none;
+            box-shadow: 0rem 0rem 2rem 0rem #14a3eb89;
+        }
+    }
+
+    form button {
+        padding: 0.5rem 2rem 0.5rem 2rem;
+        background: none;
+        border-radius: 2rem;
+        border: none;
+        color: white;
+        background-color: #14a5eb;
+        transition: all 0.4s ease-in-out;
+
+        &:hover {
+            background: none;
+            border: 0.1rem solid #14a5eb;
+            color: #14a5eb;
+        }
+    }
+    }
+
+    
+}

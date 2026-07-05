@@ -1,0 +1,75 @@
+@use 'mixin';
+
+.block_1 {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+    background-size: cover;
+    animation: Animback 30s ease-in-out infinite;
+
+    @keyframes Animback {
+    0% {
+        background-image: url(/img/header-1.jpg);
+    }
+
+    44% {
+        background-image: url(/img/header-3.jpg);
+    }
+
+    45% {
+        background-image: url(/img/header-3.jpg);
+    }
+
+    88% {
+        background-image: url(/img/header-4.jpg);
+    }
+
+    89% {
+        background-image: url(/img/header-4.jpg);
+    }
+
+    100% {
+        background-image: url(/img/header-1.jpg);
+    }
+}
+
+.header {
+    @include mixin.flex-align;
+    padding: 1% 20% 1% 20%;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.174);
+
+    a {
+        margin-left: 4rem;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.466);
+
+        &:hover {
+            color: rgba(0, 0, 255, 0.389);
+        }
+    }
+}
+
+.txt {
+    margin-top: 10%;
+    line-height: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.bt .button{
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    margin: 1rem;
+    border-radius: 5rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.364);
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.489);
+    transition: all 0.5s ease-in-out;
+
+    &:hover {
+        background-color:#14a3eb89;
+        color: white;
+    }
+ }
+}

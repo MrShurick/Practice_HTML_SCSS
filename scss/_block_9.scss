@@ -1,0 +1,35 @@
+.block_9 {
+    h1 {
+        font-size: 3.5rem;
+        color: #34495e;
+    }
+
+    .coment {
+        font-family:oblique;
+    }
+
+    .end {
+        margin-top: 10rem;
+
+        .face:hover {
+            content: url(/img/free-icon-facebook-3128304.png);
+        }
+
+        .pint:hover {
+            content: url(/img/free-icon-pinterest-214530.png);
+        }
+
+        .twit:hover {
+            content: url(/img/free-icon-twitter-2111703.png);
+        }
+
+        .goog:hover {
+            content: url(/img/free-icon-google-2702602.png);
+        }
+
+        .inst:hover {
+            content: url(/img/free-icon-instagram-2111463.png);
+        }
+        
+    }
+}
