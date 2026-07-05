@@ -8,42 +8,42 @@
 }
 @-webkit-keyframes Animback {
   0% {
-    background-image: url(/img/header-1.jpg);
+    background-image: url(../img/header-1.jpg);
   }
   44% {
-    background-image: url(/img/header-3.jpg);
+    background-image: url(../img/header-3.jpg);
   }
   45% {
-    background-image: url(/img/header-3.jpg);
+    background-image: url(../img/header-3.jpg);
   }
   88% {
-    background-image: url(/img/header-4.jpg);
+    background-image: url(../img/header-4.jpg);
   }
   89% {
-    background-image: url(/img/header-4.jpg);
+    background-image: url(../img/header-4.jpg);
   }
   100% {
-    background-image: url(/img/header-1.jpg);
+    background-image: url(../img/header-1.jpg);
   }
 }
 @keyframes Animback {
   0% {
-    background-image: url(/img/header-1.jpg);
+    background-image: url(../img/header-1.jpg);
   }
   44% {
-    background-image: url(/img/header-3.jpg);
+    background-image: url(../img/header-3.jpg);
   }
   45% {
-    background-image: url(/img/header-3.jpg);
+    background-image: url(../img/header-3.jpg);
   }
   88% {
-    background-image: url(/img/header-4.jpg);
+    background-image: url(../img/header-4.jpg);
   }
   89% {
-    background-image: url(/img/header-4.jpg);
+    background-image: url(../img/header-4.jpg);
   }
   100% {
-    background-image: url(/img/header-1.jpg);
+    background-image: url(../img/header-1.jpg);
   }
 }
 .block_1 .header {
@@ -172,7 +172,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   height: 50vh;
-  background-image: url(/img/image-4.jpg);
+  background-image: url(../img/image-4.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -245,17 +245,17 @@
   margin-top: 10rem;
 }
 .block_9 .end .face:hover {
-  content: url(/img/free-icon-facebook-3128304.png);
+  content: url(../img/free-icon-facebook-3128304.png);
 }
 .block_9 .end .pint:hover {
-  content: url(/img/free-icon-pinterest-214530.png);
+  content: url(../img/free-icon-pinterest-214530.png);
 }
 .block_9 .end .twit:hover {
-  content: url(/img/free-icon-twitter-2111703.png);
+  content: url(../img/free-icon-twitter-2111703.png);
 }
 .block_9 .end .goog:hover {
-  content: url(/img/free-icon-google-2702602.png);
+  content: url(../img/free-icon-google-2702602.png);
 }
 .block_9 .end .inst:hover {
-  content: url(/img/free-icon-instagram-2111463.png);
+  content: url(../img/free-icon-instagram-2111463.png);
 }
